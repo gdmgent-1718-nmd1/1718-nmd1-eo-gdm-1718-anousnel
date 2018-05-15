@@ -8,7 +8,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     color: #333;
     line-height: 1.5em;
-    padding: 25px;
+    
 }
 
 img {
@@ -16,3 +16,116 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+/* HOME PAGE*/
+nav{
+    position: fixed;
+    width:100%;
+    background-color: #DECDB1;
+}
+nav ul{
+    list-style-type: none;
+    margin-right: 6em;
+    margin:0;
+    float: right;
+    margin-top: 1.8em;
+}
+nav ul li{
+    display: inline;
+    padding-right: 4em;
+    font-family: Source Sans Pro, Arial, Helvetica, sans-serif;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav img{
+    width: 5%;
+    float: left;
+    margin-left:2em;
+}
+
+nav ul li a:hover {
+    font-size: 110%;
+}
+
+/* MAIN */
+
+.line-up-knop{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: #6CBFD5;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.line-up-knop h2{
+    text-align: center;
+    line-height:2.1em;
+}
+
+.a-z-knop{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: #6CBFD5;
+    margin: auto;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.a-z-knop h2{
+    text-align: center;
+    line-height:2.1em;
+}
+
+.a-z-knop:active{
+    background: #FF812F;
+}
+
+article{
+    position: relative; 
+    max-width: 100%; /* Maximum width */
+    margin: 0 auto; 
+}
+
+article div{
+    width: 33%;
+    float: left;
+    margin-top: 2em;
+}
+
+article div img{
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article div p{
+    text-align: center;
+    background-color: #FF812F;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    background-color: #25424A;
+    padding-top: 5em;
+    height: 5000px;
+}
+
