@@ -18,6 +18,17 @@ img {
 
 /* Voeg jouw css hieraan toe */
 /* HOME PAGE*/
+.intro p{
+    font-family: Source sans pro, sans-serif;
+    Color:rgb(91, 209, 49);
+
+}
+.intro h3{
+    Font-family: Source sans pro, sans-serif;
+    Color:#FF812F;
+    Font-size:Bold;
+    
+}
 nav{
     position: fixed;
     width:100%;
