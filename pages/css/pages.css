@@ -23,11 +23,13 @@ img {
     Color:rgb(91, 209, 49);
 
 }
-.intro h3{
+.intro h2{
     Font-family: Source sans pro, sans-serif;
     Color:#FF812F;
     Font-size:Bold;
-    
+    font-size: 50px;
+    Text-align: center;
+
 }
 nav{
     position: fixed;
