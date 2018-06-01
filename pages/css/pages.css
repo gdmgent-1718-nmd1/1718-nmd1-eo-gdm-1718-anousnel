@@ -21,6 +21,7 @@ img {
 .intro p{
     font-family: Source sans pro, sans-serif;
     Color:rgb(91, 209, 49);
+    text-align: center;
 
 }
 .intro h2{
@@ -112,11 +113,36 @@ article div{
     margin-top: 2em;
 }
 
-article div img{
-    max-width: 50%;
+.weeknd{
+    background-image:url(../images/weeknd.jpg);
+   
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-size:cover;
+    height: 300px;
+    width: 300px;
+}
+.dua{
+    background-image:url(../images/dua.jpg);
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size:cover;
+    height: 300px;
+    width:300px;
+}
+.mendes{
+    background-image:url(../images/shawn.jpg);
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-size:cover;
+    height: 420px;
+    widows: 300px;
+    margin-bottom: 2%;
 }
 
 article div p{
@@ -124,10 +150,11 @@ article div p{
     font-weight: Bold;
     text-align: center;
     color:#25424A;
-    background-color: #FF812F;
+    background-color: rgba(255,129,47,0.7);
     max-width: 50%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 400px;
 }
 
 .content{
@@ -145,13 +172,71 @@ article div p{
     margin-left: 10px;
     margin-right: 20px;
 }
+.Kleur1{
+background-color:#FF812F;
+    width: 60px;
+    height: 60px;
+    margin-left: 45%;
+    float:left;
+}
+.kleur2{
+    background-color:#6CBFD5;
+    width:60px;
+    height:60px;
+    float: left;
+    display:block;
+    margin-left: 20px;
+}
+.bijschrift{
+   
+    float: left;
+    margin-left: -63px;
+    margin-top: 44px;
+    color: white;
+}
+.kleur3{
+    background-color:#DECDB1;
+    width:60px;
+    height:60px;
+    float: left;
+    display:block;
+    margin-left: 20px;
+}
+.kleur4{
+    background-color:#DECDB1;
+    width:60px;
+    height:60px;
+    float: left;
+    display:block;
+    margin-left: 20px;
+}
 
+.kleur5{
+    background-color:#DECDB1;
+    width:60px;
+    height:60px;
+    float: left;
+    display:block;
+    margin-left: 20px;
+    }
+.imgconcurrentie {
+    
+    height: 600px;
+    width: 800px;
+    margin-left: 20px;
+    
+  
+}
+tr {
+Background-color:#6CBFD5;
+font-size: 12pt;
+height: 34px;
+width: 100px;
+}
 
-
-
-
-
-
+table{
+    border-radius: 10%;
+}
 
 
 
