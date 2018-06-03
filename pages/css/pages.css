@@ -73,6 +73,10 @@ img {
   }
   
   /* MAIN */
+  imglogo{
+    display: flex;
+    justify-content: center;
+  }
   
   .line-up-knop {
     border-radius: 50%;
