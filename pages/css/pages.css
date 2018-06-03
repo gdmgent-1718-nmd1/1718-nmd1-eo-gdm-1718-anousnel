@@ -381,12 +381,57 @@ main{
 }
 
 i{
-    background-color:#FF812F ;
     color:#6CBFD5;
+   margin: auto;
    
-    align-items: column;
-  
-  
-    
+}
+.socialm{
+  display:flex;
+
+  justify-content: space-around;
+  width: 500px;
+  margin: auto;
 }
 
+/*formulier*/
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #FF812F;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #6CBFD5;
+}
+.container h3{
+  text-align: center;
+}
+label{
+  font-family: Source sans pro, sans serif;
+  color:#25424A
+}
+.formulier {
+  border-radius: 20px;
+  background-color: #DECDB1;
+  border: solid 3px;
+  border-color:#FF812F;
+  padding: 20px;
+  width: 40%;
+  margin:auto;
+}

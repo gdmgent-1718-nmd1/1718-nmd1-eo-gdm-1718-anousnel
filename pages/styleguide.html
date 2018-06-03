@@ -7,7 +7,8 @@
     <title>Digital Styleguide - Eindopdracht NMD-I</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/pages.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
 <body>
         <nav>
@@ -33,6 +34,9 @@
                   </div>
             
                 </section>
+                <div class="btncontainer">
+                  <button class="more_btn" type="button" name="button">More artists</button>
+                </div>
             
                 <h2 class="pictitle">Foto's</h2>
             
@@ -49,10 +53,7 @@
             
                 </article>
             
-                <div class="btncontainer">
-                  <button class="more_btn" type="button" name="button">More artists</button>
-                </div>
-            
+
                 <h2 class="colortitle">Kleuren</h2>
             
             
@@ -88,13 +89,31 @@
                 </section>
             
             <h2 class="colortitle">ICONS</h2>
-            
+          <div class="socialm">  
            <i class="fab fa-facebook fa-5x"></i>
            <i class="fab fa-twitter-square fa-5x"></i>
             <i class="fab fa-instagram fa-5x"></i> 
             <i class="fas fa-ship fa-5x"></i>
-          
-            
+            <i class="fas fa-info-circle fa-5x"></i>
+        </div>
+        <h2 class="colortitle">Contact formulier</h2>
+        <div class="formulier">
+          <h3>Contact </h3>
+        <form action="/action_page.php">
+          <label for="fname">Naam</label>
+          <input type="text" id="fname" name="firstname" placeholder="uw naam..">
+      
+          <label for="lname">Voornaam</label>
+          <input type="text" id="lname" name="lastname" placeholder="uw voornaam..">
+      
+        <label for="Email">Emailadres</label>
+          <input type="text" id="Email" name="Email" placeholder="uw Email adress..">
+           <textarea id="subject" name="subject" placeholder="Schrijf hier.." style="height:100px"></textarea>
+      
+        <input type="submit" value="Submit">
+        
+        </form>
+      </div>
 
             
               </main>
